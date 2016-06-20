@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4B9CC44E5973E27F78712FAEC30BDECA0A24B66A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4B9CC44E5973E27F78712FAEC30BDECA0A24B66A" : 0,
+    "507DFCD5465C7D322E15FB2F313C59FE0F465D89" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C7C3E4ED-B7CB-4708-951C-05B16002D4E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4B9CC44E5973E27F78712FAEC30BDECA0A24B66A" : "Method2\/",
+    "507DFCD5465C7D322E15FB2F313C59FE0F465D89" : "..\/hello"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Method2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Method2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HaiderSahib\/iMessageMethod2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B9CC44E5973E27F78712FAEC30BDECA0A24B66A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HaiderSahib\/iMessageMethod1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "507DFCD5465C7D322E15FB2F313C59FE0F465D89"
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422D927C1D18800D008F208E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D927B1D18800D008F208E /* Assets.xcassets */; };
+		422D92831D18800D008F208E /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 422D92821D18800D008F208E /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		422D92881D18800D008F208E /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422D92871D18800D008F208E /* Messages.framework */; };
+		422D928C1D18800D008F208E /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422D928B1D18800D008F208E /* MessagesViewController.m */; };
+		422D928F1D18800D008F208E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422D928D1D18800D008F208E /* MainInterface.storyboard */; };
+		422D92911D18800D008F208E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D92901D18800D008F208E /* Assets.xcassets */; };
+		42EF5BEF1D1880730042EA89 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5BEE1D1880730042EA89 /* config.xml */; };
+		42EF5BF01D1880730042EA89 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5BEE1D1880730042EA89 /* config.xml */; };
+		42EF5BF81D1880C20042EA89 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EF5BF71D1880C20042EA89 /* AssetsLibrary.framework */; };
+		42EF5BFA1D1880CA0042EA89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EF5BF91D1880CA0042EA89 /* CoreGraphics.framework */; };
+		42EF5BFC1D1880D10042EA89 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EF5BFB1D1880D10042EA89 /* CoreLocation.framework */; };
+		42EF5BFE1D1880D70042EA89 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EF5BFD1D1880D70042EA89 /* MobileCoreServices.framework */; };
+		42EF5C171D188B870042EA89 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C111D188B870042EA89 /* index.css */; };
+		42EF5C181D188B870042EA89 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C111D188B870042EA89 /* index.css */; };
+		42EF5C191D188B870042EA89 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C131D188B870042EA89 /* logo.png */; };
+		42EF5C1A1D188B870042EA89 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C131D188B870042EA89 /* logo.png */; };
+		42EF5C1B1D188B870042EA89 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C141D188B870042EA89 /* index.html */; };
+		42EF5C1C1D188B870042EA89 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C141D188B870042EA89 /* index.html */; };
+		42EF5C1D1D188B870042EA89 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C161D188B870042EA89 /* index.js */; };
+		42EF5C1E1D188B870042EA89 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5C161D188B870042EA89 /* index.js */; };
+		42EF5C331D188EB50042EA89 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EF5C301D188E9D0042EA89 /* libCordova.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		422D92841D18800D008F208E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422D92721D18800D008F208E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422D92811D18800D008F208E;
+			remoteInfo = MessagesExtension;
+		};
+		42EF5C2F1D188E9D0042EA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EF5C2B1D188E9D0042EA89 /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		42EF5C311D188EB10042EA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EF5C2B1D188E9D0042EA89 /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		422D92981D18800D008F208E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				422D92831D18800D008F208E /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		422D92781D18800D008F208E /* Method2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Method2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422D927B1D18800D008F208E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422D927D1D18800D008F208E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422D92821D18800D008F208E /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		422D92871D18800D008F208E /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		422D928A1D18800D008F208E /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		422D928B1D18800D008F208E /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		422D928E1D18800D008F208E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		422D92901D18800D008F208E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422D92921D18800D008F208E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EF5BEE1D1880730042EA89 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = config.xml; path = ../../hello/config.xml; sourceTree = "<group>"; };
+		42EF5BF71D1880C20042EA89 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		42EF5BF91D1880CA0042EA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42EF5BFB1D1880D10042EA89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		42EF5BFD1D1880D70042EA89 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		42EF5C111D188B870042EA89 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		42EF5C131D188B870042EA89 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		42EF5C141D188B870042EA89 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		42EF5C161D188B870042EA89 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		42EF5C2B1D188E9D0042EA89 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "../Cordova iOS/CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422D927F1D18800D008F208E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EF5C331D188EB50042EA89 /* libCordova.a in Frameworks */,
+				42EF5BFE1D1880D70042EA89 /* MobileCoreServices.framework in Frameworks */,
+				42EF5BFC1D1880D10042EA89 /* CoreLocation.framework in Frameworks */,
+				42EF5BFA1D1880CA0042EA89 /* CoreGraphics.framework in Frameworks */,
+				42EF5BF81D1880C20042EA89 /* AssetsLibrary.framework in Frameworks */,
+				422D92881D18800D008F208E /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422D92711D18800D008F208E = {
+			isa = PBXGroup;
+			children = (
+				42EF5C0F1D188B870042EA89 /* www */,
+				422D927A1D18800D008F208E /* Method2 */,
+				422D92891D18800D008F208E /* MessagesExtension */,
+				422D92861D18800D008F208E /* Frameworks */,
+				422D92791D18800D008F208E /* Products */,
+				42EF5BEE1D1880730042EA89 /* config.xml */,
+				42EF5C2B1D188E9D0042EA89 /* CordovaLib.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		422D92791D18800D008F208E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422D92781D18800D008F208E /* Method2.app */,
+				422D92821D18800D008F208E /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422D927A1D18800D008F208E /* Method2 */ = {
+			isa = PBXGroup;
+			children = (
+				422D927B1D18800D008F208E /* Assets.xcassets */,
+				422D927D1D18800D008F208E /* Info.plist */,
+			);
+			path = Method2;
+			sourceTree = "<group>";
+		};
+		422D92861D18800D008F208E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42EF5BFD1D1880D70042EA89 /* MobileCoreServices.framework */,
+				42EF5BFB1D1880D10042EA89 /* CoreLocation.framework */,
+				42EF5BF91D1880CA0042EA89 /* CoreGraphics.framework */,
+				42EF5BF71D1880C20042EA89 /* AssetsLibrary.framework */,
+				422D92871D18800D008F208E /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		422D92891D18800D008F208E /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				422D928A1D18800D008F208E /* MessagesViewController.h */,
+				422D928B1D18800D008F208E /* MessagesViewController.m */,
+				422D928D1D18800D008F208E /* MainInterface.storyboard */,
+				422D92901D18800D008F208E /* Assets.xcassets */,
+				422D92921D18800D008F208E /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		42EF5C0F1D188B870042EA89 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				42EF5C101D188B870042EA89 /* css */,
+				42EF5C121D188B870042EA89 /* img */,
+				42EF5C141D188B870042EA89 /* index.html */,
+				42EF5C151D188B870042EA89 /* js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		42EF5C101D188B870042EA89 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				42EF5C111D188B870042EA89 /* index.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		42EF5C121D188B870042EA89 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				42EF5C131D188B870042EA89 /* logo.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		42EF5C151D188B870042EA89 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				42EF5C161D188B870042EA89 /* index.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		42EF5C2C1D188E9D0042EA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EF5C301D188E9D0042EA89 /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422D92771D18800D008F208E /* Method2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422D92991D18800D008F208E /* Build configuration list for PBXNativeTarget "Method2" */;
+			buildPhases = (
+				422D92761D18800D008F208E /* Resources */,
+				422D92981D18800D008F208E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422D92851D18800D008F208E /* PBXTargetDependency */,
+			);
+			name = Method2;
+			productName = Method2;
+			productReference = 422D92781D18800D008F208E /* Method2.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		422D92811D18800D008F208E /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422D92951D18800D008F208E /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				422D927E1D18800D008F208E /* Sources */,
+				422D927F1D18800D008F208E /* Frameworks */,
+				422D92801D18800D008F208E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EF5C321D188EB10042EA89 /* PBXTargetDependency */,
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = 422D92821D18800D008F208E /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422D92721D18800D008F208E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Haider Sahib";
+				TargetAttributes = {
+					422D92771D18800D008F208E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8YQ2L7T4RJ;
+						DevelopmentTeamName = "Diwan Software Limited";
+						ProvisioningStyle = Automatic;
+					};
+					422D92811D18800D008F208E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8YQ2L7T4RJ;
+						DevelopmentTeamName = "Diwan Software Limited";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 422D92751D18800D008F208E /* Build configuration list for PBXProject "Method2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 422D92711D18800D008F208E;
+			productRefGroup = 422D92791D18800D008F208E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 42EF5C2C1D188E9D0042EA89 /* Products */;
+					ProjectRef = 42EF5C2B1D188E9D0042EA89 /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				422D92771D18800D008F208E /* Method2 */,
+				422D92811D18800D008F208E /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		42EF5C301D188E9D0042EA89 /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 42EF5C2F1D188E9D0042EA89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422D92761D18800D008F208E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EF5C1B1D188B870042EA89 /* index.html in Resources */,
+				42EF5C191D188B870042EA89 /* logo.png in Resources */,
+				422D927C1D18800D008F208E /* Assets.xcassets in Resources */,
+				42EF5C1D1D188B870042EA89 /* index.js in Resources */,
+				42EF5BEF1D1880730042EA89 /* config.xml in Resources */,
+				42EF5C171D188B870042EA89 /* index.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422D92801D18800D008F208E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EF5C181D188B870042EA89 /* index.css in Resources */,
+				42EF5C1A1D188B870042EA89 /* logo.png in Resources */,
+				42EF5BF01D1880730042EA89 /* config.xml in Resources */,
+				42EF5C1C1D188B870042EA89 /* index.html in Resources */,
+				42EF5C1E1D188B870042EA89 /* index.js in Resources */,
+				422D92911D18800D008F208E /* Assets.xcassets in Resources */,
+				422D928F1D18800D008F208E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422D927E1D18800D008F208E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422D928C1D18800D008F208E /* MessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		422D92851D18800D008F208E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422D92811D18800D008F208E /* MessagesExtension */;
+			targetProxy = 422D92841D18800D008F208E /* PBXContainerItemProxy */;
+		};
+		42EF5C321D188EB10042EA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 42EF5C311D188EB10042EA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		422D928D1D18800D008F208E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422D928E1D18800D008F208E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422D92931D18800D008F208E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		422D92941D18800D008F208E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422D92961D18800D008F208E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "-Obj-C";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diwan.Method2.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		422D92971D18800D008F208E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "-Obj-C";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diwan.Method2.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		422D929A1D18800D008F208E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Method2/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diwan.Method2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		422D929B1D18800D008F208E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Method2/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diwan.Method2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422D92751D18800D008F208E /* Build configuration list for PBXProject "Method2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422D92931D18800D008F208E /* Debug */,
+				422D92941D18800D008F208E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422D92951D18800D008F208E /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422D92961D18800D008F208E /* Debug */,
+				422D92971D18800D008F208E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422D92991D18800D008F208E /* Build configuration list for PBXNativeTarget "Method2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422D929A1D18800D008F208E /* Debug */,
+				422D929B1D18800D008F208E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422D92721D18800D008F208E /* Project object */;
+}
